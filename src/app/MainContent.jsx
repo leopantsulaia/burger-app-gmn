@@ -1,7 +1,6 @@
 import React from "react";
 import MenuSection from "./MenuSection";
 import OrderList from "../components/OrderList";
-import Footer from "../components/Footer";
 
 function MainContent({
 	order,
@@ -63,7 +62,6 @@ function MainContent({
 					onRemove={handleRemoveFromOrder}
 				/>
 			)}
-			<Footer />
 		</main>
 	);
 }
